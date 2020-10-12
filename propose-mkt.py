@@ -4,7 +4,7 @@
 This script initialises Vega Markets.
 
 1. Save market parameters from an existing network:
-   curl -s https://n01.d.vega.xyz/markets >~/markets.json
+   curl -s https://node.example.com/markets >~/markets.json
 
 2. Customise market parameters if needed.
 
