@@ -76,14 +76,14 @@ def parse_args() -> argparse.Namespace:
         "--walletserver",
         type=str,
         required=True,
-        help="wallet server (e.g. https://wallet.X.vega.xyz)",
+        help="wallet server (e.g. https://wallet.example.com)",
     )
 
     parser.add_argument(
         "--veganode",
         type=str,
         required=True,
-        help="vega node (e.g. node.vega.example.com:3333)",
+        help="vega node (e.g. node.example.com:3333)",
     )
 
     return parser.parse_args()
